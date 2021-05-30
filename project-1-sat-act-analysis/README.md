@@ -3,16 +3,16 @@
 ### Problem Statement
 #### Given the observations of the SAT and competitor ACT state participation data from 2017/2018, how might we improve the SAT participation rate for the State of Florida?
 
-The analysis is done in [this Jupyter Notebook.](/tree/main/project-1-sat-act-analysis/code/sat-act-analysis.ipynb)
+The analysis is done in [this Jupyter Notebook.](../code/sat-act-analysis.ipynb)
 
 ### Contents:
-- [2017 Data Import & Cleaning](/tree/main/project-1-sat-act-analysis/code/sat-act-analysis.ipynb#Data-Import-and-Cleaning)
-- [2018 Data Import and Cleaning](/tree/main/project-1-sat-act-analysis/code/sat-act-analysis.ipynb#2018-Data-Import-and-Cleaning)
-- [Exploratory Data Analysis](/tree/main/project-1-sat-act-analysis/code/sat-act-analysis.ipynb#Exploratory-Data-Analysis)
-- [Data Visualization](/tree/main/project-1-sat-act-analysis/code/sat-act-analysis.ipynb#Visualize-the-data)
-- [Descriptive and Inferential Statistics](/tree/main/project-1-sat-act-analysis/code/sat-act-analysis.ipynb#Descriptive-and-Inferential-Statistics)
-- [Outside Research](/tree/main/project-1-sat-act-analysis/code/sat-act-analysis.ipynb#Outside-Research)
-- [Conclusions and Recommendations](/tree/main/project-1-sat-act-analysis/code/sat-act-analysis.ipynb#Conclusions-and-Recommendations)
+- [2017 Data Import & Cleaning](../code/sat-act-analysis.ipynb#Data-Import-and-Cleaning)
+- [2018 Data Import and Cleaning](../code/sat-act-analysis.ipynb#2018-Data-Import-and-Cleaning)
+- [Exploratory Data Analysis](../code/sat-act-analysis.ipynb#Exploratory-Data-Analysis)
+- [Data Visualization](../code/sat-act-analysis.ipynb#Visualize-the-data)
+- [Descriptive and Inferential Statistics](../code/sat-act-analysis.ipynb#Descriptive-and-Inferential-Statistics)
+- [Outside Research](../code/sat-act-analysis.ipynb#Outside-Research)
+- [Conclusions and Recommendations](../code/sat-act-analysis.ipynb#Conclusions-and-Recommendations)
 
 ### Data Sources
 - [SAT](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/)
@@ -21,7 +21,7 @@ The analysis is done in [this Jupyter Notebook.](/tree/main/project-1-sat-act-an
 ### Data Dictionary
 
 <code>final.csv</code> contains the combined information from the <code>act_2017.csv</code>, <code>act_2018_updated.csv</code>, <code>sat_2017.csv</code> and <code>sat_2018.csv</code> datasets, inner joined on the 'state' column.
-The data files are found [here](/tree/main/project-1-sat-act-analysis/data).
+The data files are found [here](../data).
 
 The properties of each feature are described according to the state post-cleaning and processing in <code>final.csv</code>, with the 'Dataset' attribute describing the original data file the feature came from.
 
