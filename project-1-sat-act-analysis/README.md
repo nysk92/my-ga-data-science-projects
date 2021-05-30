@@ -6,7 +6,7 @@
 The analysis is done in [this Jupyter Notebook.](../code/sat-act-analysis.ipynb)
 
 ### Contents:
-- [2017 Data Import & Cleaning](../code/sat-act-analysis.ipynb#Data-Import-and-Cleaning)
+- [2017 Data Import & Cleaning](../project-1-sat-act-analysis/code/sat-act-analysis.ipynb#Data-Import-and-Cleaning)
 - [2018 Data Import and Cleaning](../code/sat-act-analysis.ipynb#2018-Data-Import-and-Cleaning)
 - [Exploratory Data Analysis](../code/sat-act-analysis.ipynb#Exploratory-Data-Analysis)
 - [Data Visualization](../code/sat-act-analysis.ipynb#Visualize-the-data)
