@@ -17,11 +17,11 @@ More details about the challenge can be found [on this Kaggle page](https://www.
 
 This is the notebook structure of the project. 
 
-1. [Notebook 1](../_/code/01_EDA_and_Cleaning.ipynb): Data Cleaning and EDA
-2. [Notebook 2](../_/code/02_Preprocessing_and_Feature_Engineering.ipynb): Preprocessing and Feature Engineering
-3. [Notebook 2a](../_/code/02a_Preprocessing_Test_Set.ipynb): Preprocessing Test Set
-4. [Notebook 3](../_/code/03_Models_and_Conclusions.ipynb): Models and Conclusions
-5. [Notebook 3a](../_/code/03a_Model_Baselines.ipynb): Baseline and QUick Lightweight Models
+1. [Notebook 1](../project-2-ames-housing-regression/code/01_EDA_and_Cleaning.ipynb): Data Cleaning and EDA
+2. [Notebook 2](../project-2-ames-housing-regression/code/02_Preprocessing_and_Feature_Engineering.ipynb): Preprocessing and Feature Engineering
+3. [Notebook 2a](../project-2-ames-housing-regression/code/02a_Preprocessing_Test_Set.ipynb): Preprocessing Test Set
+4. [Notebook 3](../project-2-ames-housing-regression/code/03_Models_and_Conclusions.ipynb): Models and Conclusions
+5. [Notebook 3a](../project-2-ames-housing-regression/code/03a_Model_Baselines.ipynb): Baseline and QUick Lightweight Models
 
 EDA and data cleaning will be done in Notebook 1. Thereafter, a first cut of cleaned data will be saved and used in Notebook 2 for feature engineering. 
 
@@ -33,9 +33,9 @@ Main modelling work and conclusions are found in Notebook 3. Notebook 3a is just
 
 ## Data
 
-The original train and test data files and the prediction submissions are located in the [kaggledata folder](../_/kaggledata).
+The original train and test data files and the prediction submissions are located in the [kaggledata folder](../project-2-ames-housing-regression/kaggledata).
 
-The original <code>train.csv</code> and <code>test.csv</code> are cleaned and processed, with features being dropped or new features being created/transformed. Interim data files are saved in the [datasets folder](../_/kaggledata), which also contains the fully processed training and test sets, <code>f_train.csv</code>  and <code>f_test.csv</code> respectively.
+The original <code>train.csv</code> and <code>test.csv</code> are cleaned and processed, with features being dropped or new features being created/transformed. Interim data files are saved in the [datasets folder](../project-2-ames-housing-regression/kaggledata), which also contains the fully processed training and test sets, <code>f_train.csv</code>  and <code>f_test.csv</code> respectively.
 
 
 
@@ -44,7 +44,7 @@ The original <code>train.csv</code> and <code>test.csv</code> are cleaned and pr
 
 
 The feature sets used for different models are called <code>features_max</code>, <code>features_max_powerless</code>, <code>features_drop_weak</code>, <code>features_lite</code> and <code>features_min</code>.
-The [features folder](../_/features) contains organised information on the features, refer to <code>features.csv</code> to specifically see which features belong to each feature set.
+The [features folder](../project-2-ames-housing-regression/features) contains organised information on the features, refer to <code>features.csv</code> to specifically see which features belong to each feature set.
 
 ### Data Dictionary
 
