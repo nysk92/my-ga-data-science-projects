@@ -7,7 +7,7 @@ The problem to be solved is to accurately predict housing prices given data abou
 
 Success will entail being able to select and appropriately transform the most important features in the dataset, and to train and tune a regression model to make accurate predictions on sale prices. In doing so, interpreting the models will allow us to see how different features of a house may affect the sale price. 
 
-The learnings could be useful for home purchasers or investors to udnerstand how to fairly valuate a house. Such a study could also be a good way to understand a particular city's property market. Although certain attributes in the Ames property data might not be applicable to any city or town in the world, especially the particularities of the neighborhoods, many of this attributes would be relevant in valuating property anywhere, such as the amount of space, quality of finishing and amount of rooms.
+The learnings could be useful for home purchasers or investors to understand how to fairly valuate a house. Such a study could also be a good way to understand a particular city's property market. Although certain attributes in the Ames property data might not be applicable to any city or town in the world, especially the particularities of the neighborhoods, many of this attributes would be relevant in valuating property anywhere, such as the amount of space, quality of finishing and amount of rooms.
 
 More details about the challenge can be found [on this Kaggle page](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge/overview).
 
