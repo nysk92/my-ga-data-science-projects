@@ -21,7 +21,7 @@ This is the notebook structure of the project.
 2. [Notebook 2](../project-2-ames-housing-regression/code/02_Preprocessing_and_Feature_Engineering.ipynb): Preprocessing and Feature Engineering
 3. [Notebook 2a](../project-2-ames-housing-regression/code/02a_Preprocessing_Test_Set.ipynb): Preprocessing Test Set
 4. [Notebook 3](../project-2-ames-housing-regression/code/03_Models_and_Conclusions.ipynb): Models and Conclusions
-5. [Notebook 3a](../project-2-ames-housing-regression/code/03a_Model_Baselines.ipynb): Baseline and QUick Lightweight Models
+5. [Notebook 3a](../project-2-ames-housing-regression/code/03a_Model_Baselines.ipynb): Baseline and Quick Lightweight Models
 
 EDA and data cleaning will be done in Notebook 1. Thereafter, a first cut of cleaned data will be saved and used in Notebook 2 for feature engineering. 
 
