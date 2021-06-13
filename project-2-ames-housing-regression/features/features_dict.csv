@@ -1,0 +1,54 @@
+feature,data type,var type,description,raw feature,features max,features max powerless,features drop weak,features lite,features min
+Lot Frontage,float64,cont,Linear feet of street connected to property,Lot Frontage,Y,Y,Y,N,N
+Lot Area,int64,cont,Property lot size in square feet.,Lot Area,Y,Y,Y,N,N
+Overall Cond,int64,ord,Overall condition rating of house.,Overall Cond,Y,Y,N,N,N
+Year Built,int64,dis,Original construction date.,Year Built,Y,Y,Y,Y,N
+Year Remod/Add,int64,dis,Remodel or construction date.,Year Remod/Add,Y,Y,Y,Y,N
+Mas Vnr Area,float64,cont,Masonry veneer area in square feet.,Mas Vnr Area,Y,Y,Y,Y,N
+Total Bsmt SF,float64,cont,Total basement area in square feet.,Total Bsmt SF,Y,Y,Y,N,N
+1st Flr SF,int64,cont,First floor area in square feet.,1st Flr SF,Y,Y,Y,Y,N
+2nd Flr SF,int64,cont,Second floor area in square feet.,2nd Flr SF,Y,Y,Y,N,N
+Low Qual Fin SF,int64,cont,Low quality finished area on all floors in square feet.,Low Qual Fin SF,Y,Y,N,N,N
+Bedroom AbvGr,int64,dis,Bedrooms above grade.,Bedroom AbvGr,Y,Y,Y,N,N
+Kitchen AbvGr,int64,dis,Kitchens above grade.,Kitchen AbvGr,Y,Y,Y,N,N
+TotRms AbvGrd,int64,dis,Total rooms above grade.,TotRms AbvGrd,Y,Y,Y,Y,N
+Fireplaces,int64,dis,Number of fireplaces. ,Fireplaces,Y,Y,Y,Y,N
+Garage Area,float64,cont,Garage size in square feet.,Garage Area,Y,Y,Y,Y,N
+Wood Deck SF,int64,cont,Wood deck area in square feet.,Wood Deck SF,Y,Y,Y,N,N
+Open Porch SF,int64,cont,Open porch are in square feet.,Open Porch SF,Y,Y,Y,N,N
+Enclosed Porch,int64,cont,Enclosed porch area in square feet.,Enclosed Porch,Y,Y,Y,N,N
+3Ssn Porch,int64,cont,Three season porch area in square feet.,3Ssn Porch,Y,Y,N,N,N
+Screen Porch,int64,cont,Screen porch area in square feet.,Screen Porch,Y,Y,Y,N,N
+Pool Area,int64,cont,Area of pool in square feet.,Pool Area,Y,Y,N,N,N
+Misc Val,int64,cont,Value of misc features.,Misc Val,Y,Y,N,N,N
+Mo Sold,int64,dis,Month sold.,Mo Sold,Y,Y,N,N,N
+Yr Sold,int64,dis,Year sold.,Yr Sold,Y,Y,N,N,N
+After 1999,int64,bin,Whether the house was built from 2000 onwards.,Yr Sold,Y,Y,Y,Y,N
+PID 9,int64,bin,Whether Parcel ID begins with '9'.,PID,Y,Y,Y,N,N
+Bath Log,float64,cont,"The logged value of the weighted sum of bathrooms, with basement bathrooms getting less weight.","Full Bath, Half Bath, Bsmt Full Bath, Bsmt Half Bath",Y,Y,Y,Y,N
+Floating Village,int64,bin,Whether the zoning classification is floating village.,MS Zoning,Y,Y,Y,N,N
+Regular Lot Shape,int64,bin,Whether the lot shape is regular.,Lot Shape,Y,Y,Y,N,N
+Hillside,int64,bin,Whether land contour is hill sloped.,Land Contour,Y,Y,Y,N,N
+CulDSac,int64,bin,Whether the lot is at a cul de sac.,Lot Config,Y,Y,Y,N,N
+NH1,int64,bin,Whether the house is in NH 'IDOTRR' or 'MeadowV'.,Neighborhood,Y,Y,Y,N,N
+NH2,int64,bin,"Houses in neither NH1, NH3, N4 nor 'GrnHill'.",Neighborhood,Y,Y,Y,Y,N
+NH3,int64,bin,"Whether the house is in 'Blmngtn', 'Somerst', 'Timber' or 'Veenker'.",Neighborhood,Y,Y,Y,N,N
+NH4,int64,bin,"Whether the house is in 'Greens', 'NoRidge', 'NridgHt', or 'StoneBr'.",Neighborhood,Y,Y,Y,Y,N
+1 Story,int64,bin,Whether the house is single story or not.,House Style,Y,Y,N,N,N
+Hip Roof,int64,bin,Whether the roof style is hip roof or not.,Roof Style,Y,Y,Y,N,N
+Stone Vnr,int64,bin,Whether the veneer is stone or not.,Mas Vnr Type,Y,Y,Y,N,N
+Has Vnr,int64,bin,Whether there is a masonry veneer or not.,Mas Vnr Type,Y,Y,Y,Y,N
+Exter Qual Num,int64,ord,"Quality level of exterior materials, 2 for Gd/Ex, 1 for average, 0 for the rest.",Exter Qual,Y,Y,Y,Y,N
+PConc Foundation,int64,bin,Whether house foundation is of poured concrete.,Foundation,Y,Y,Y,Y,N
+Has Central Air,int64,bin,Whether house has central air conditioning.,Central Air,Y,Y,Y,N,N
+Excellent Heating,int64,bin,Whether house has excellent quality heating.,Heating QC,Y,Y,Y,Y,N
+Kitchen Qual Num,int64,ord,"Quality level of kitchen, 2 for Ex, 1 for Gd, 0 for the rest.",Kitchen Qual,Y,Y,Y,Y,N
+Fireplace Qu Num,int64,ord,"Quality level of fireplace, 2 for Ex, 1 for Gd, 0 for the rest.",Fireplace Qu,Y,Y,Y,Y,N
+Attached or BuiltIn Garage,int64,bin,"1 if the house has an attached or built-in garage, else 0.",Garage Type,Y,Y,Y,Y,N
+Finished Garage,int64,bin,Whether the garage is finished (including roughly finished).,Garage Finish,Y,Y,Y,Y,N
+Fully Paved Drive,int64,bin,Whether drive is fully paved.,Paved Drive,Y,Y,Y,N,N
+New Sale,int64,bin,Whether the sale type of the house was of a new house.,Sale Type,Y,Y,Y,N,N
+Has Alley Access,int64,bin,Whether the property has alley access.,Alley,Y,Y,Y,N,N
+1.5P Gr Liv Area,float64,cont,Above grade square feet living area value to the power of 1.5.,Gr Liv Area,Y,N,Y,Y,N
+1.5P Total SF,float64,cont,Above and below grade living area value in square feet to the power of 1.5.,"Gr Liv Area, Total Bsmt SF",Y,N,Y,Y,Y
+P3 Overall Qual,int64,dis,Overall material and finish quality rating raised to power of 3.,Overall Qual,Y,N,Y,Y,Y
