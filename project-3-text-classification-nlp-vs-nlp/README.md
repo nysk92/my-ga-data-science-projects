@@ -7,13 +7,13 @@ With this problem in mind, a text classifier could be a potential solution to he
 
 # Methodology
 
-1. Scrape data from the Language Technology (natural language processing) and NLP (neuro-linguistic programming) subreddits. The data can be found [here](../_/data).
+1. Scrape data from the Language Technology (natural language processing) and NLP (neuro-linguistic programming) subreddits. The data can be found [here](../project-3-text-classification-nlp-vs-nlp/data).
 
 
-2. [Clean data](../_/code/01_Data_Cleaning_and_EDA.ipynb) and featurize with Count Vectorizer/Tfidf Vectorizer. Try out stemming and lemmatization, and stopword removal as preprocessing steps.
+2. [Clean data](../project-3-text-classification-nlp-vs-nlp/code/01_Data_Cleaning_and_EDA.ipynb) and featurize with Count Vectorizer/Tfidf Vectorizer. Try out stemming and lemmatization, and stopword removal as preprocessing steps.
 
 
-3. Train a binary classification model that can distinguish between posts about natural language processing (1) vs neuro-linguistic programming (0). This and the next step is done in [Notebook 2](../_/code/02_Models.ipynb).
+3. Train a binary classification model that can distinguish between posts about natural language processing (1) vs neuro-linguistic programming (0). This and the next step is done in [Notebook 2](../project-3-text-classification-nlp-vs-nlp/code/02_Models.ipynb).
 
 
 4. Iterate, evaluating against hold out test set, and on top of that, against a dataset of related topics, also scraped from reddit. For Language Technology, the related topic data would be from the Deep Learning subreddit. For Neuro-Linguistic Programming, the related topic data would be from the Hypnosis subreddit. A model trained to distinguish between Neuro Linguistic Programming and Natural Language Processing would prove itself to be all the more useful if it can also distinguish between the respective adjacent topics.
