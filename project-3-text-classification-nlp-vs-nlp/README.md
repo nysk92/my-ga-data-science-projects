@@ -41,7 +41,7 @@ With this problem in mind, a text classifier could be a potential solution to he
 
 # Conclusion
 
-1. The best model for prediction is multinomial naive bayes classifier with tifidf vectorizer, and it has proven to generalise well to distinguishing adjacent topics too. This shows promise that the classifier has the potential to learn from a wider range of natural language processing topics to be able to classify beyond the limited language technology reddit subset of vocabulary it has trained on.
+1. The best model for prediction is multinomial naive bayes classifier with tifidf vectorizer (model 4), and it has proven to generalise well to distinguishing adjacent topics too. This shows promise that the classifier has the potential to learn from a wider range of natural language processing topics to be able to classify beyond the limited language technology reddit subset of vocabulary it has trained on.
 
 
 2. Separating neuro-linguistic programming content from natural language processing content appears to be a very achievable task, however, the highest weighted features of the best models are slightly worrying in that they do not seem to be words that very obviously distinguish the two classes. (might not be a bad thing, that is why we have ML). More work can definitely be done to improve the model to be ready for a wider range of natural language processing topics. Moving forward, it would be helpful scrape a larger variety of training data that covers a wider range of vocabulary for both topics. 
